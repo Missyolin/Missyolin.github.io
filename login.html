@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tantangan Praktikum - Login</title>
+    </head>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Membagi tata letak menjadi dua kolom dengan lebar yang sama */
+            grid-gap: 20px; /* Jarak antara kolom */
+        }
+    
+
+    </style>
+    <div class="container"></div>
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="challenges.html">Challenges</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <hr />
+    <style>
+        div{
+            -webkit-column-count: 2; 
+            -moz-column-count: 2;
+            column-count: 2;
+        } 
+        /* properti CSS untuk mengubah tata letak elemen HTML yang memiliki tag <div>*/
+    </style>
+    <div>
+        <main>
+            <form>
+                <fieldset>  <!-- elemen HTML untuk mengelompokkan sejumlah elemen dalam 
+                            sebuah formulir-->
+                    <legend><h2>Login</h2></legend>
+                    <br>
+                    <label for="email">Email</label><br> 
+                    <input type="email" name="email" id="email" />
+                    <br />
+                    <br />
+                    <label for="password">Password</label><br> 
+                    <input type="password" name="password" id="password" />
+                    <br />
+                    <br />
+                    <input type="submit" value="submit" />
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend><h2>Register</h2></legend>
+                    <br>
+                    <label for="namaLengkap">Nama Lengkap</label><br> 
+                    <input type="text" name="namaLengkap" id="namaLengkap" />
+                    <br />
+                    <br />
+                    <label for="email">Email</label><br> 
+                    <input type="email" name="email" id="email" />
+                    <br />
+                    <br />
+                    <label for="pekerjaan">Pekerjaan</label>
+                    <select id="pekerjaan" name="pekerjaan"> 
+                        <!-- mmebuat kotak dropdown dalam formulir-->
+                        <option value="mahasiswa">Mahasiswa</option>
+                        <option value="asdos">Asisten Dosen</option>
+                        <option value="dosen">Dosen</option>
+                        </select>
+                    <br />
+                    <br />
+                    <label for="nPassword">Password</label><br>
+                    <input type="password" name="password" id="password" />
+                    <br />
+                    <br />
+                    <input type="submit" value="submit" />
+                </fieldset>
+            </form>
+        </main>
+    </div>
+    </div>
+</html>
